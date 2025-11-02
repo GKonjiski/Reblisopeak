@@ -4,4 +4,7 @@ body{
 
 #naslov1{
     color: red;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius:5px
 }
