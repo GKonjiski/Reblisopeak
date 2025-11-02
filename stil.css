@@ -5,7 +5,7 @@ body{
 #naslov1{
     display: inline-block;
     color: red;
-    background-color: blue;
+    background-color: blue !important;
     padding: 10px 20px;
     border-radius:5px
 }
