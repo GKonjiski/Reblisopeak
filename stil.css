@@ -1,11 +1,224 @@
-body{
+
+*{
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+.navbar ul{
+    list-style-type: none;
+    display: flex;           
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar{
+    height: 40px;
+    background-color: #351a66;
+    border-radius:10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.navbar a{
+    color: rgb(28, 219, 60);
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.navbar a:hover{
+    background-color: gray;
+}
+
+
+/*INDEX*/
+#bodyindex{
+    text-align: center;
+    background-color:#a74b32;
+    
+}
+
+
+
+#indexnaslov{
+    display: inline-block;
+    color: rgb(216, 97, 97);
+    background-color: rgb(91, 91, 211) !important;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-size: 1.5em;
+    
+}
+
+#reblesfotka{
+    height: 78vh;
+    border-radius:20px;
+
+}
+
+#indexfooter{
+    transform: translateY(1vh)
+}
+
+/*VPRAŠALNIK*/
+
+
+
+#vprašalniknaslov{
+    display: inline-block;
+    color: rgb(216, 97, 97);
+    background-color: rgb(91, 91, 211) !important;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-size: 3em;
+}
+#bodyvprašalnik{
+    text-align: center;
+    background-color: #a74b32;
+}
+
+#vprašalnikform{
+    font-size: 2em;
+    border-radius:5px;
+    
+    
+}
+
+input{
+    width: 10em;   
+    height: 1.2em;   
+    font-size: 1em; 
+    padding: 0.3em; 
+    border-radius:5px;
+    background-color: #c3c3c3; 
+}
+#komentar{
+    width: 50%;
+    border-radius:5px;
+    background-color: #c3c3c3;
+}
+.formknof{
+    width: 100px;
+    height: 50px;
+    border-radius:5px;
+    background-color: #c3c3c3;
+    box-shadow:0px 0px 10px;
+}
+.opcija{
+    width: 100px;
+    height: 50px;
+    margin: 40px;
+    border-radius:5px;
+    background-color: #c3c3c3;
+}
+
+#vprašalnikfooter{
+    transform: translateY(10vh)
+
+}
+
+/*O NAS*/
+#onasbody{
+    background-color: #a74b32;
     text-align: center;
 }
 
-#naslov1{
+#onasnaslov{
     display: inline-block;
-    color: red;
-    background-color: blue !important;
+    color: rgb(216, 97, 97);
+    background-color: rgb(91, 91, 211) !important;
     padding: 10px 20px;
-    border-radius:5px
+    border-radius:5px;
+    font-size: 3em;
 }
+.onasp{
+    font-size: 1.5em;
+}
+#onastekst{
+    border: #080808 2px solid;
+}
+
+#onasreblesfotka{
+    height: 45vh;
+    border-radius:20px;
+    margin: 50px;
+}
+
+#onasfooter{
+    transform: translateY(10vh)    
+}
+
+/*LAN*/
+
+#lanbody{
+    background-color: rgb(216, 11, 11);
+    text-align: center;
+}
+
+
+#lannaslov{
+    background-color:#1f1f1f;
+    color: #a2b6c0;
+    display: inline-block;
+    border-radius:5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.lanfotka {
+    display: block;
+    float: left;
+    margin: 10px;
+    border: #080808 4px solid;
+    border-radius: 8px;
+    box-shadow:0px 0px 50px;
+}
+
+.lanfotka img{
+    width:46vh;
+    height: 300px;
+}
+
+
+#langalerija{
+    display: block;
+}
+
+#lanknofdiv{
+    
+    clear: both;
+    display: block;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+#lanknof{
+    width: 200px;
+    height: 100px;
+    display: inline;
+    clear: both;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(77, 114, 146);
+    font-size: 1.2em;
+    box-shadow:0px 0px 50px;
+    margin: 100px;
+    
+
+
+}
+
+#lanknof:hover{
+    transform: translateX(500px)
+
+
+}
+
+
+
+

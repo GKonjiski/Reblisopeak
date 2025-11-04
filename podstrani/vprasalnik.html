@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vprašalnik</title>
+    <link rel="stylesheet" href="../stil.css">
+</head>
+<body id="bodyvprašalnik">
+
+    <header>
+        <h2 id="vprašalniknaslov">Vprašalnik.</h2>
+        <br>
+        <nav id="navbar"class="navbar">
+            <div>
+                    <ul>
+                      <li><a href="../index.html">DOMOV</a></li>
+                      <li><a href="o_nas.html">O NAS</a></li>  
+                      <!--<li><a href="">KONTAKT</a></li>-->  
+                      <!--<li><a href="">PRODUKTI</a></li>-->
+                      <li><a href="vprasalnik.html">VPRAŠALNIK</a></li>   
+                      <li><a href="lan.html">LAN</a></li>    
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+     <main id="vprašalnik">
+
+        <br><hr>
+        <form id="vprašalnikform" action="https://formsubmit.co/g.konjiski@gmail.com" target="_blank"  method="POST">
+            <label for="ime">Ime: </label>
+            <input name="ime" type="text" id="ime" required>
+            <br>
+            <br>
+            <hr>
+
+            <p>Kateri ti je ljubši?</p>
+            <label for="clone wars"> Clone Wars</label>
+            <input name="ljubš?" type="radio" id="clone wars" value="clone wars" required>
+            <label for="rebles">Rebles</label>
+            <input name="ljubš?" type="radio" id="rebles" value="rebles" required>
+            <br>
+            <br>
+            <hr>
+
+            <label for="prepričanje">Bi se dal prepričati v drugačno mišlenje?</label>
+            <br>
+            <select class="opcija" name="prepričanje" id="prepričanje" required>
+                <option class="opcija" value="DA">DA</option>
+                <option class="opcija" value="NE">NE</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+
+            <label for="komentar">Dodaj še svoje misli!</label>
+            <br>
+            <textarea name="komentar" id="komentar" cols="30" rows="10" required></textarea>
+            <br>
+
+            <button class="formknof" type="submit">Pošlji</button>
+            <button class="formknof" type="reset">Resetiraj</button>
+
+
+        </form>
+    
+
+    </main>
+
+    <footer id="vprašalnikfooter">
+        <hr>
+        avtor: G.Konjiški <br>
+        &copy; copyrigt reserved <br>
+        <small><a href="mailto:g.konjiski@gmail.com">g.konjiski@gmail.com</a></small>
+
+    </footer>
+    
+</body>
+</html>

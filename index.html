@@ -7,58 +7,35 @@
     <link rel="stylesheet" href="stil.css">
 </head>
 
-<body>
+<body id="bodyindex">
     <header>
 
-    <h1 ><span id="naslov1">Rebli so najboljši star wars show</span></h1>
-
-    </header>
-    <main>
-
-        <img src="slike/rebli.jpg" alt="slika Reblov" height="250px">
-
-        <h2>Prosim vnesite par podatkov.</h2>
+        <h1><span id="indexnaslov">REBLI SO PEAK</span></h1>
         
-        <form action="https://formsubmit.co/g.konjiski@gmail.com" target="_blank"  method="POST">
-            <label for="ime">Ime: </label>
-            <input name="ime" type="text" id="ime" required>
-            <br>
-            <br>
-            <hr>
+        <nav id="navbar"class="navbar">
+            <div>
+                    <ul>
+                      <li><a href="index.html">DOMOV</a></li>
+                      <li><a href="podstrani/o_nas.html">O NAS</a></li>  
+                      <!--<li><a href="">KONTAKT</a></li>-->  
+                      <!--<li><a href="">PRODUKTI</a></li>-->
+                      <li><a href="podstrani/vprasalnik.html">VPRAŠALNIK</a></li>   
+                      <li><a href="podstrani/lan.html">LAN</a></li>    
+                    </ul>
+            </div>
+        </nav>
+        
 
-            <p>Kateri ti je ljubši?</p>
-            <label for="clone wars"> Clone Wars</label>
-            <input name="ljubš?" type="radio" id="clone wars" value="clone wars" required>
-            <label for="rebles">Rebles</label>
-            <input name="ljubš?" type="radio" id="rebles" value="rebles" required>
-            <br>
-            <br>
-            <hr>
-
-            <label for="prepričanje">Bi se dal prepričati v drugačno mišlenje?</label>
-            <br>
-            <select name="prepričanje" id="prepričanje" required>
-                <option value="DA">DA</option>
-                <option value="NE">NE</option>
-            </select>
-            <br>
-            <br>
-            <hr>
-
-            <label for="komentar">Dodaj še svoje misli!</label>
-            <br>
-            <textarea name="komentar" id="komentar" cols="30" rows="10" required></textarea>
-            <br>
-
-            <button type="submit">Pošlji</button>
-            <button type="reset">Resetiraj</button>
-
-
-        </form>
     
 
+    </header>
+    <main id="indexmain">
+
+        <img id="reblesfotka" src="slike/rebli.jpg" alt="slika Reblov" >
+
+
     </main>
-    <footer>
+    <footer id="indexfooter">
         <hr>
         avtor: G.Konjiški <br>
         &copy; copyrigt reserved <br>
