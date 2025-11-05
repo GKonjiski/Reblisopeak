@@ -8,13 +8,13 @@
     list-style-type: none;
     display: flex;           
     justify-content: center;
-    padding: 0px;
+    padding: 5px;
     margin: 0px;
     overflow: hidden;
 }
 
 .navbar{
-    height: 40px;
+    height: 30px;
     width: 50vw;
     background-color: #351a66;
     border-radius:10px;
@@ -25,9 +25,10 @@
 .navbar a{
     color: rgb(28, 219, 60);
     text-decoration: none;
-    padding: 15px;
+    padding: 25px;
     text-align: center;
     font-size: 1.4vw;
+    
 }
 
 .navbar a:hover{
@@ -143,30 +144,30 @@ input{
 }
 
 #onasreblesfotka{
-    height: 23vw;
+    height: 60vw;
     border-radius:20px;
     margin: 50px;
 }
 
 #onasfooter{
-    transform: translateY(10vh)    
+    transform: translateY(1vh)    
 }
 
-/*LAN*/
+/*Sponzorji*/
 
-#lanbody{
-    background-color: rgb(216, 11, 11);
+#sponzorjibody{
+    background-color: #a74b32;
     text-align: center;
 }
 
 
-#lannaslov{
-    background-color:#1f1f1f;
-    color: #a2b6c0;
+#sponzorjinaslov{
     display: inline-block;
-    border-radius:5px;
+    color: rgb(216, 97, 97);
+    background-color: rgb(91, 91, 211) !important;
     padding: 10px 20px;
-    margin-bottom: 20px;
+    border-radius:5px;
+    font-size: 3em;
 }
 
 .lanfotka {
@@ -176,6 +177,8 @@ input{
     border: #080808 4px solid;
     border-radius: 8px;
     box-shadow:0px 0px 50px;
+    font-size: 2vh;
+    background-color:#dabc3b;
 }
 
 .lanfotka img{
@@ -186,6 +189,9 @@ input{
 
 #langalerija{
     display: block;
+    animation-name: fotke;      
+    animation-duration: 2s;
+
 }
 
 #lanknofdiv{
@@ -222,4 +228,6 @@ input{
 
 
 
-
+@keyframes fotke{
+    from{transform: translateX(100%);}
+}
