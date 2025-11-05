@@ -43,7 +43,20 @@
 
     .navbar {
         width: 59%;      /* almost full width on mobile */
-        height: 4vw;
+        height: 10%;
+    }
+}
+
+
+@media screen and (max-width: 452px) {
+    .navbar a {
+        
+        font-size: 1.5vw;
+    }
+
+    .navbar {
+        width: 59%;      /* almost full width on mobile */
+        height: 10%;
     }
 }
 
@@ -256,7 +269,29 @@ input{
 
 #lanknof:hover{
     animation-name: fotke;      
-    animation-duration: 2s;
+    animation-duration: 1s;
+}}
+
+@media screen and (max-width: 600px){
+    #lanknof{
+    width: 200px;
+    height: 100px;
+    display: inline;
+    clear: both;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(77, 114, 146);
+    font-size: 1.2em;
+    box-shadow:0px 0px 50px;
+    margin: 100px;
+    
+
+
+}
+
+#lanknof:hover{
+    animation-name: fotke;      
+    animation-duration: 1s;
 }}
 
 
