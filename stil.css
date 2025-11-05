@@ -14,12 +14,12 @@
 }
 
 .navbar{
-    height: 30px;
+    height: 2.5vw;
     width: 50vw;
     background-color: #351a66;
     border-radius:10px;
     display: inline-block;
-    margin: 10px;
+    
 }
 
 .navbar a{
@@ -35,6 +35,17 @@
     background-color: gray;
 }
 
+@media screen and (max-width: 900px) {
+    .navbar a {
+        padding: 8px 10px;
+        font-size: 2vw;
+    }
+
+    .navbar {
+        width: 59%;      /* almost full width on mobile */
+        height: 4vw;
+    }
+}
 
 /*INDEX*/
 #bodyindex{
@@ -225,6 +236,30 @@ input{
 
 
 }
+
+@media screen and (max-width: 900px){
+    #lanknof{
+    width: 200px;
+    height: 100px;
+    display: inline;
+    clear: both;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(77, 114, 146);
+    font-size: 1.2em;
+    box-shadow:0px 0px 50px;
+    margin: 100px;
+    
+
+
+}
+
+#lanknof:hover{
+    animation-name: fotke;      
+    animation-duration: 2s;
+}}
+
+
 
 
 
